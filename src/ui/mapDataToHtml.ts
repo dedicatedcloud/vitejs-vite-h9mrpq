@@ -28,7 +28,7 @@ export const mapDataToHtml = (cartItems: CartItem[]) => {
         <h2 class="cart-item-title">${item.title}</h2>
         <p class="cart-item-description">${item.description}</p>
         <p class="cart-item-price" id="product-price-${item.id}">
-          INR <span>${item.price * item.quantity}</span>
+          GBP £ <span>${item.price * item.quantity}</span>
         </p>
         <div class="cart-item-btn-group">
           <button 

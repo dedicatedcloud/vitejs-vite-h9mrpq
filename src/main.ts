@@ -15,7 +15,7 @@ export const renderCart = async () => {
       </ul>
       <section class="cart-total">
         <div>
-          Total Price: INR <span class="cart-total-value">${totalPrice}</span>
+          Total Price: GBP £ <span class="cart-total-value">${totalPrice}</span>
         </div>
       </section>
     `;
